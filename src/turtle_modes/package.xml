@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>turtle_modes</name>
+  <version>0.0.0</version>
+  <description>Control de turtlesim con 3 modos: manual, circulo y trayectoria (accion cancelable).</description>
+
+  <maintainer email="you@example.com">student</maintainer>
+  <license>Apache-2.0</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <depend>rclcpp</depend>
+  <depend>rclcpp_action</depend>
+  <depend>geometry_msgs</depend>
+  <depend>turtlesim</depend>
+  <depend>turtle_modes_interfaces</depend>
+
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
+

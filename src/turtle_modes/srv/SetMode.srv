@@ -1,0 +1,5 @@
+uint8 mode          # 0=MANUAL, 1=CIRCLE, 2=TRAJECTORY
+bool clockwise      # solo se usa en modo CIRCLE
+---
+bool ok
+string message

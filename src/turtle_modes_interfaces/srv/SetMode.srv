@@ -1,0 +1,5 @@
+uint8 mode          # 0=MANUAL, 1=CIRCLE, 2=TRAJECTORY
+int8 circle_dir     # -1=horario, 1=antihorario, 0=ignorar
+---
+bool ok
+string message

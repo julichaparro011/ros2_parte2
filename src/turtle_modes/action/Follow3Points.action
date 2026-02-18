@@ -1,0 +1,10 @@
+geometry_msgs/Point[3] points
+float32 linear_speed
+float32 angular_gain
+float32 pos_tolerance
+---
+bool success
+string message
+---
+uint8 current_segment
+float32 distance_to_goal

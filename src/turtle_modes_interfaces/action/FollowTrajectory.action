@@ -1,0 +1,7 @@
+bool start
+---
+bool success
+string message
+---
+uint32 current_waypoint
+float32 distance_to_goal
